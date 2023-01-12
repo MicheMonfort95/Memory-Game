@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    padding-left: 20%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(45deg,rgb(252, 1, 1),rgb(2, 125, 249),rgb(229, 254, 1));
+    background-size: 300% 300%;
+    animation: color 7s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
